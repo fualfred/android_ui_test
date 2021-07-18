@@ -1,0 +1,65 @@
+{
+  "uid" : "a0fc6f851d4a1c9d",
+  "name" : "test_add_member_success[user0-11528872802]",
+  "fullName" : "testcases.test_addMember.TestAddMember#test_add_member_success",
+  "historyId" : "1a64c6b7b979eeb9ddec33e3518da889",
+  "time" : {
+    "start" : 1626597010066,
+    "stop" : 1626597010066,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('E:\\\\document\\\\code\\\\pythonCode\\\\appium_ui_testFramework\\\\testcases\\\\test_addMember.py', 21, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_addMember"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddMember"
+  }, {
+    "name" : "host",
+    "value" : "z"
+  }, {
+    "name" : "thread",
+    "value" : "8144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_addMember"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "phone",
+    "value" : "'11528872802'"
+  }, {
+    "name" : "user",
+    "value" : "'user0'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "a0fc6f851d4a1c9d.json",
+  "parameterValues" : [ "'11528872802'", "'user0'" ]
+}

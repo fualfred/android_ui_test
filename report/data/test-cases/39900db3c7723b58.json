@@ -1,0 +1,62 @@
+{
+  "uid" : "39900db3c7723b58",
+  "name" : "test_add_member_success[user1-11528872801]",
+  "fullName" : "testcases.test_addMember.TestAddMember#test_add_member_success",
+  "historyId" : "3bd124ece02e4e1a76cd54a6b2cfac48",
+  "time" : {
+    "start" : 1626593578132,
+    "stop" : 1626593578132,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'implicitly_wait'",
+  "statusTrace" : "self = <testcases.test_addMember.TestAddMember object at 0x000001FE846DDEF0>\n\n    def setup(self):\n>       self.app = App()\n\ntestcases\\test_addMember.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.app.App object at 0x000001FE846DDC88>, driver = None\n\n    def __init__(self, driver: WebDriver = None):\n        self._driver = driver\n>       self._driver.implicitly_wait(5)\nE       AttributeError: 'NoneType' object has no attribute 'implicitly_wait'\n\npage\\base_page.py:22: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_addMember"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddMember"
+  }, {
+    "name" : "host",
+    "value" : "z"
+  }, {
+    "name" : "thread",
+    "value" : "22104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_addMember"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "phone",
+    "value" : "'11528872801'"
+  }, {
+    "name" : "user",
+    "value" : "'user1'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39900db3c7723b58.json",
+  "parameterValues" : [ "'11528872801'", "'user1'" ]
+}

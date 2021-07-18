@@ -1,0 +1,18 @@
+INFO     logger:wrapper.py:20 args:('xpath', '//*[@resource-id="com.tencent.wework:id/e0y" and @text="通讯录"]') kwargs:{}
+
+INFO     logger:wrapper.py:20 args:('xpath', '//*[@class="android.widget.TextView" and @text="添加成员"]') kwargs:{}
+INFO     logger:wrapper.py:20 args:('xpath', '//*[@class="android.widget.TextView" and @text="手动输入添加"]') kwargs:{}
+
+INFO     logger:wrapper.py:20 args:('xpath', '//*[@resource-id="com.tencent.wework:id/b09"]') kwargs:{}
+
+INFO     logger:wrapper.py:20 args:('xpath', '//*[@resource-id="com.tencent.wework:id/f7y"]') kwargs:{}
+
+INFO     logger:wrapper.py:20 args:('xpath', '//*[@resource-id="com.tencent.wework:id/ad2"]') kwargs:{}
+
+INFO     logger:wrapper.py:20 args:('xpath', '//*[@resource-id="com.tencent.wework:id/bg4" and @class="android.widget.TextView"]') kwargs:{}
+
+INFO     logger:base_page.py:74 <appium.webdriver.webelement.WebElement (session="8b96e6f7-ece6-4f7b-a180-d193d7506f39", element="c82a68fd-e14e-4f90-99cc-dc1feeed080b")>
+INFO     logger:wrapper.py:20 args:('xpath', '//*[@resource-id="com.tencent.wework:id/bg4" and @class="android.widget.TextView"]') kwargs:{}
+
+INFO     logger:base_page.py:75 手机号不能为空
+INFO     logger:wrapper.py:20 args:('xpath', '//*[@resource-id="com.tencent.wework:id/bg4" and @class="android.widget.TextView"]') kwargs:{}

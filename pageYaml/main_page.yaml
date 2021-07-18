@@ -1,0 +1,4 @@
+go_to_address:
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/e0y" and @text="通讯录"]'
+    action: click

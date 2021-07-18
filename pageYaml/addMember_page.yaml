@@ -1,0 +1,52 @@
+add_member:
+  - by: xpath
+    locator: '//*[@class="android.widget.TextView" and @text="手动输入添加"]'
+    action: wait
+  - by: xpath
+    locator: '//*[@class="android.widget.TextView" and @text="手动输入添加"]'
+    action: click
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/hc6" and @text="快速输入"]'
+    action: len>click
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/b09"]'
+    action: send
+    value: ${user}
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/f7y"]'
+    action: send
+    value: ${phone}
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/ad2"]'
+    action: click
+add_member_fail:
+  - by: xpath
+    locator: '//*[@class="android.widget.TextView" and @text="手动输入添加"]'
+    action: wait
+  - by: xpath
+    locator: '//*[@class="android.widget.TextView" and @text="手动输入添加"]'
+    action: click
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/hc6" and @text="快速输入"]'
+    action: len>click
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/b09"]'
+    action: send
+    value: ${user}
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/f7y"]'
+    action: send
+    value: ${phone}
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/ad2"]'
+    action: click
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/bg4" and @class="android.widget.TextView"]'
+    action: wait
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/bg4" and @class="android.widget.TextView"]'
+    action: getText
+go_to_address:
+  - by: xpath
+    locator: '//*[@resource-id="com.tencent.wework:id/hbs"]'
+    action: click

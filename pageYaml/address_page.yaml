@@ -1,0 +1,7 @@
+go_to_add_member:
+  - by: xpath
+    locator: '//*[@class="android.widget.TextView" and @text="添加成员"]'
+    action: wait
+  - by: xpath
+    locator: '//*[@class="android.widget.TextView" and @text="添加成员"]'
+    action: click

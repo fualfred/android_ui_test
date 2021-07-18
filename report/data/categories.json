@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: \nExpected: '姓名不能为空1'\n     but: was '姓名不能为空'",
+      "children" : [ {
+        "name" : "test_add_member_fail[-11528872804-姓名不能为空1]",
+        "uid" : "c5303940d8d010c5",
+        "parentUid" : "c9cda94d8a5fa5f40e7ec9edc64bb0b8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626598091892,
+          "stop" : 1626598103318,
+          "duration" : 11426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'姓名不能为空1'", "'11528872804'", "''" ]
+      } ],
+      "uid" : "c9cda94d8a5fa5f40e7ec9edc64bb0b8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

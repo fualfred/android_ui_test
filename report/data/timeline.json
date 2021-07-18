@@ -1,0 +1,906 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "z",
+    "children" : [ {
+      "name" : "11180-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "bfc038376241d92a",
+        "parentUid" : "ef35c7d44c778b66dfaac937dab6c799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626597765396,
+          "stop" : 1626597778960,
+          "duration" : 13564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_fail[-11528872804-姓名不能为空1]",
+        "uid" : "c5303940d8d010c5",
+        "parentUid" : "ef35c7d44c778b66dfaac937dab6c799",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626598091892,
+          "stop" : 1626598103318,
+          "duration" : 11426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'姓名不能为空1'", "'11528872804'", "''" ]
+      }, {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "883e5f0cb8c71896",
+        "parentUid" : "ef35c7d44c778b66dfaac937dab6c799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626597870715,
+          "stop" : 1626597882009,
+          "duration" : 11294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "197f8c04c78b18ee",
+        "parentUid" : "ef35c7d44c778b66dfaac937dab6c799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626597981691,
+          "stop" : 1626597993438,
+          "duration" : 11747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_fail[-11528872801-姓名不能为空]",
+        "uid" : "7875e0940886bbd5",
+        "parentUid" : "ef35c7d44c778b66dfaac937dab6c799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626598039174,
+          "stop" : 1626598050612,
+          "duration" : 11438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'姓名不能为空'", "'11528872801'", "''" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "358ffe7305323124",
+        "parentUid" : "ef35c7d44c778b66dfaac937dab6c799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626597928471,
+          "stop" : 1626597939719,
+          "duration" : 11248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "fd7b44bdd43ffa25",
+        "parentUid" : "ef35c7d44c778b66dfaac937dab6c799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626597818490,
+          "stop" : 1626597831798,
+          "duration" : 13308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      } ],
+      "uid" : "ef35c7d44c778b66dfaac937dab6c799"
+    }, {
+      "name" : "21348-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "2fbce15183e92b2f",
+        "parentUid" : "49dbbd88581ff797c72b19c20ca977a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626592783968,
+          "stop" : 1626592791793,
+          "duration" : 7825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "4e27ef9599b4baa6",
+        "parentUid" : "49dbbd88581ff797c72b19c20ca977a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626592850514,
+          "stop" : 1626592858958,
+          "duration" : 8444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      }, {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "b43d84e76275f62f",
+        "parentUid" : "49dbbd88581ff797c72b19c20ca977a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626592672108,
+          "stop" : 1626592686234,
+          "duration" : 14126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "a62adab438a6bb29",
+        "parentUid" : "49dbbd88581ff797c72b19c20ca977a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626592912531,
+          "stop" : 1626592920603,
+          "duration" : 8072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "ce0621a5477ab0c8",
+        "parentUid" : "49dbbd88581ff797c72b19c20ca977a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626592728242,
+          "stop" : 1626592742222,
+          "duration" : 13980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      } ],
+      "uid" : "49dbbd88581ff797c72b19c20ca977a6"
+    }, {
+      "name" : "9848-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "1f7063df88334546",
+        "parentUid" : "2fe3610aaada77809a8920c6365d0c67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626597508749,
+          "stop" : 1626597520305,
+          "duration" : 11556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "acf5061721480c34",
+        "parentUid" : "2fe3610aaada77809a8920c6365d0c67",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626597420922,
+          "stop" : 1626597420922,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      }, {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "7b84fa3aefd19c05",
+        "parentUid" : "2fe3610aaada77809a8920c6365d0c67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626597456504,
+          "stop" : 1626597467849,
+          "duration" : 11345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "b22f75d1c2c9a621",
+        "parentUid" : "2fe3610aaada77809a8920c6365d0c67",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626597420920,
+          "stop" : 1626597420920,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "b9cf828a1ff8ba85",
+        "parentUid" : "2fe3610aaada77809a8920c6365d0c67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626597564476,
+          "stop" : 1626597575802,
+          "duration" : 11326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      } ],
+      "uid" : "2fe3610aaada77809a8920c6365d0c67"
+    }, {
+      "name" : "2536-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "5229c32ec368e072",
+        "parentUid" : "7ee5c940cdc8b313cb8f96b9f3f572d8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626595237158,
+          "stop" : 1626595248586,
+          "duration" : 11428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "c41adf53efabb033",
+        "parentUid" : "7ee5c940cdc8b313cb8f96b9f3f572d8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626595290777,
+          "stop" : 1626595302709,
+          "duration" : 11932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      }, {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "cf531feed363d8ee",
+        "parentUid" : "7ee5c940cdc8b313cb8f96b9f3f572d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626595134400,
+          "stop" : 1626595147315,
+          "duration" : 12915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "956a472c138f74c8",
+        "parentUid" : "7ee5c940cdc8b313cb8f96b9f3f572d8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626595347011,
+          "stop" : 1626595358236,
+          "duration" : 11225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "e708091b914a49e3",
+        "parentUid" : "7ee5c940cdc8b313cb8f96b9f3f572d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626595183770,
+          "stop" : 1626595197719,
+          "duration" : 13949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      } ],
+      "uid" : "7ee5c940cdc8b313cb8f96b9f3f572d8"
+    }, {
+      "name" : "8144-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "dce83b034c1db182",
+        "parentUid" : "7a39435124315b177b5cb58395475e60",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626597165060,
+          "stop" : 1626597177101,
+          "duration" : 12041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "91ff3e52f6ff72f9",
+        "parentUid" : "7a39435124315b177b5cb58395475e60",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626597010068,
+          "stop" : 1626597010068,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "c15035ffa6503802",
+        "parentUid" : "7a39435124315b177b5cb58395475e60",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626597101139,
+          "stop" : 1626597112377,
+          "duration" : 11238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      }, {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "a0fc6f851d4a1c9d",
+        "parentUid" : "7a39435124315b177b5cb58395475e60",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626597010066,
+          "stop" : 1626597010066,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "24fe9248f24fac98",
+        "parentUid" : "7a39435124315b177b5cb58395475e60",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626597046034,
+          "stop" : 1626597057098,
+          "duration" : 11064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      } ],
+      "uid" : "7a39435124315b177b5cb58395475e60"
+    }, {
+      "name" : "19760-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "2819df6942a4369f",
+        "parentUid" : "630bbb541e22ddb05e2a5677e8601343",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626596068450,
+          "stop" : 1626596080560,
+          "duration" : 12110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "fb9cfbe161f52aa3",
+        "parentUid" : "630bbb541e22ddb05e2a5677e8601343",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626596001490,
+          "stop" : 1626596013143,
+          "duration" : 11653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "38004f98334fe407",
+        "parentUid" : "630bbb541e22ddb05e2a5677e8601343",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626595887878,
+          "stop" : 1626595887878,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      }, {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "6ec95aa321eb56ab",
+        "parentUid" : "630bbb541e22ddb05e2a5677e8601343",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626595935708,
+          "stop" : 1626595958049,
+          "duration" : 22341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "665b0b6d9feb6054",
+        "parentUid" : "630bbb541e22ddb05e2a5677e8601343",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626595887875,
+          "stop" : 1626595887875,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      } ],
+      "uid" : "630bbb541e22ddb05e2a5677e8601343"
+    }, {
+      "name" : "12428-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "3f0028c3140a8238",
+        "parentUid" : "c04dcd576d8b6b81d2603689067ae480",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593803526,
+          "stop" : 1626593811583,
+          "duration" : 8057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "91928b70b779a7ea",
+        "parentUid" : "c04dcd576d8b6b81d2603689067ae480",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593921399,
+          "stop" : 1626593929058,
+          "duration" : 7659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "c93d85cf3cc31823",
+        "parentUid" : "c04dcd576d8b6b81d2603689067ae480",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626593690217,
+          "stop" : 1626593704827,
+          "duration" : 14610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "34cb49c7d088977",
+        "parentUid" : "c04dcd576d8b6b81d2603689067ae480",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593867870,
+          "stop" : 1626593875880,
+          "duration" : 8010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "86332e9d33fd8f59",
+        "parentUid" : "c04dcd576d8b6b81d2603689067ae480",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626593747310,
+          "stop" : 1626593760836,
+          "duration" : 13526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      } ],
+      "uid" : "c04dcd576d8b6b81d2603689067ae480"
+    }, {
+      "name" : "9172-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "34a04f24ec105dcf",
+        "parentUid" : "d6ca80a77e27a6d9d11fb0fbd75277ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626594195340,
+          "stop" : 1626594210155,
+          "duration" : 14815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "dbae07be993ca322",
+        "parentUid" : "d6ca80a77e27a6d9d11fb0fbd75277ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626594446784,
+          "stop" : 1626594454588,
+          "duration" : 7804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "4fbb79fdd8c33e2f",
+        "parentUid" : "d6ca80a77e27a6d9d11fb0fbd75277ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626594389027,
+          "stop" : 1626594397205,
+          "duration" : 8178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      }, {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "d8200d0a944385f2",
+        "parentUid" : "d6ca80a77e27a6d9d11fb0fbd75277ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626594322136,
+          "stop" : 1626594330078,
+          "duration" : 7942
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "23841e5ac3415ca",
+        "parentUid" : "d6ca80a77e27a6d9d11fb0fbd75277ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626594259428,
+          "stop" : 1626594274248,
+          "duration" : 14820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      } ],
+      "uid" : "d6ca80a77e27a6d9d11fb0fbd75277ef"
+    }, {
+      "name" : "18148-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "a322f3a9fba95f95",
+        "parentUid" : "d03f1a7f0ce5374b6198c8ba311de418",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626593113670,
+          "stop" : 1626593126922,
+          "duration" : 13252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      }, {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "751780f26b72b1df",
+        "parentUid" : "d03f1a7f0ce5374b6198c8ba311de418",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593166791,
+          "stop" : 1626593174723,
+          "duration" : 7932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "2baaa4da38313868",
+        "parentUid" : "d03f1a7f0ce5374b6198c8ba311de418",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593279081,
+          "stop" : 1626593286735,
+          "duration" : 7654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "3544c9a2795ac4c9",
+        "parentUid" : "d03f1a7f0ce5374b6198c8ba311de418",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626593061983,
+          "stop" : 1626593075206,
+          "duration" : 13223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "7357d33dfb07e3b",
+        "parentUid" : "d03f1a7f0ce5374b6198c8ba311de418",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593216928,
+          "stop" : 1626593224619,
+          "duration" : 7691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      } ],
+      "uid" : "d03f1a7f0ce5374b6198c8ba311de418"
+    }, {
+      "name" : "16748-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "2c694a4cfb6ce07e",
+        "parentUid" : "fb49948d091629937b02a8e0d2d86431",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626596869739,
+          "stop" : 1626596881731,
+          "duration" : 11992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "1c4283fba2ade04b",
+        "parentUid" : "fb49948d091629937b02a8e0d2d86431",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626596701903,
+          "stop" : 1626596701903,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "fc834df7354364bc",
+        "parentUid" : "fb49948d091629937b02a8e0d2d86431",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626596801824,
+          "stop" : 1626596813289,
+          "duration" : 11465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      }, {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "a9feff2a3a210531",
+        "parentUid" : "fb49948d091629937b02a8e0d2d86431",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626596740920,
+          "stop" : 1626596752724,
+          "duration" : 11804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "78798d29325820b2",
+        "parentUid" : "fb49948d091629937b02a8e0d2d86431",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626596701901,
+          "stop" : 1626596701901,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      } ],
+      "uid" : "fb49948d091629937b02a8e0d2d86431"
+    }, {
+      "name" : "22104-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "39900db3c7723b58",
+        "parentUid" : "cd5820192f9876f143c8b195b9fdca6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593578132,
+          "stop" : 1626593578132,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      }, {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "e4cfedf475aa5724",
+        "parentUid" : "cd5820192f9876f143c8b195b9fdca6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593578045,
+          "stop" : 1626593578045,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "22caf2d781dac965",
+        "parentUid" : "cd5820192f9876f143c8b195b9fdca6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593578151,
+          "stop" : 1626593578151,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "609ded728e47b0c2",
+        "parentUid" : "cd5820192f9876f143c8b195b9fdca6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593578187,
+          "stop" : 1626593578187,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "7d603bc36d7c1f50",
+        "parentUid" : "cd5820192f9876f143c8b195b9fdca6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626593578171,
+          "stop" : 1626593578171,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      } ],
+      "uid" : "cd5820192f9876f143c8b195b9fdca6f"
+    }, {
+      "name" : "8432-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "2446f386e5874f1e",
+        "parentUid" : "fa05159f2afd92790806e410ba3a3882",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626596294442,
+          "stop" : 1626596294442,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_fail[user3-1111-请填写合法的手机号]",
+        "uid" : "1744112997708f31",
+        "parentUid" : "fa05159f2afd92790806e410ba3a3882",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626596395046,
+          "stop" : 1626596406060,
+          "duration" : 11014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'请填写合法的手机号'", "'1111'", "'user3'" ]
+      }, {
+        "name" : "test_add_member_fail[user4--手机号不能为空]",
+        "uid" : "95bb2c5e7d85fcc3",
+        "parentUid" : "fa05159f2afd92790806e410ba3a3882",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626596446533,
+          "stop" : 1626596457709,
+          "duration" : 11176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机号不能为空'", "''", "'user4'" ]
+      }, {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "fef45184567c630f",
+        "parentUid" : "fa05159f2afd92790806e410ba3a3882",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626596336129,
+          "stop" : 1626596348475,
+          "duration" : 12346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "978508acf8b50914",
+        "parentUid" : "fa05159f2afd92790806e410ba3a3882",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626596294445,
+          "stop" : 1626596294445,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      } ],
+      "uid" : "fa05159f2afd92790806e410ba3a3882"
+    }, {
+      "name" : "20960-MainThread",
+      "children" : [ {
+        "name" : "test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",
+        "uid" : "29e1374b1bf8093",
+        "parentUid" : "abc444916ddfe4c1e43921f149ed1f86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626594828669,
+          "stop" : 1626594847011,
+          "duration" : 18342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手机已存在于通讯录，无法添加'", "'11528872802'", "'user2'" ]
+      }, {
+        "name" : "test_add_member_success[user0-11528872802]",
+        "uid" : "90c9ee777dea8bd3",
+        "parentUid" : "abc444916ddfe4c1e43921f149ed1f86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626594659383,
+          "stop" : 1626594659383,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872802'", "'user0'" ]
+      }, {
+        "name" : "test_add_member_success[user1-11528872801]",
+        "uid" : "c0a261dcdba81bca",
+        "parentUid" : "abc444916ddfe4c1e43921f149ed1f86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626594758644,
+          "stop" : 1626594774565,
+          "duration" : 15921
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'11528872801'", "'user1'" ]
+      } ],
+      "uid" : "abc444916ddfe4c1e43921f149ed1f86"
+    } ],
+    "uid" : "7b6f42750a8802cfc982dd0fd08959bb"
+  } ]
+}

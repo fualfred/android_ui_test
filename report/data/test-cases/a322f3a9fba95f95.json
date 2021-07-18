@@ -1,0 +1,76 @@
+{
+  "uid" : "a322f3a9fba95f95",
+  "name" : "test_add_member_success[user1-11528872801]",
+  "fullName" : "testcases.test_addMember.TestAddMember#test_add_member_success",
+  "historyId" : "3bd124ece02e4e1a76cd54a6b2cfac48",
+  "time" : {
+    "start" : 1626593113670,
+    "stop" : 1626593126922,
+    "duration" : 13252
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dc1d894563390b31",
+      "name" : "log",
+      "source" : "dc1d894563390b31.txt",
+      "type" : "text/plain",
+      "size" : 794
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_addMember"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddMember"
+  }, {
+    "name" : "host",
+    "value" : "z"
+  }, {
+    "name" : "thread",
+    "value" : "18148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_addMember"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "phone",
+    "value" : "'11528872801'"
+  }, {
+    "name" : "user",
+    "value" : "'user1'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a322f3a9fba95f95.json",
+  "parameterValues" : [ "'11528872801'", "'user1'" ]
+}

@@ -1,0 +1,83 @@
+{
+  "uid" : "2c694a4cfb6ce07e",
+  "name" : "test_add_member_fail[user4--手机号不能为空]",
+  "fullName" : "testcases.test_addMember.TestAddMember#test_add_member_fail",
+  "historyId" : "3b4d86387144853d51a01719e95b7f7c",
+  "time" : {
+    "start" : 1626596869739,
+    "stop" : 1626596881731,
+    "duration" : 11992
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: \nExpected: '手机号不能为空'\n     but: was <None>",
+  "statusTrace" : "self = <testcases.test_addMember.TestAddMember object at 0x0000019CF1CECD68>\nuser = 'user4', phone = '', expect = '手机号不能为空'\n\n    @pytest.mark.parametrize(\"user,phone,expect\", test_data['test_add_member_fail'])\n    def test_add_member_fail(self, user, phone, expect):\n        fail_text = self.addMember.add_member_fail(user, phone)\n>       assert_that(fail_text, equal_to(expect))\nE       AssertionError: \nE       Expected: '手机号不能为空'\nE            but: was <None>\n\ntestcases\\test_addMember.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: \nExpected: '手机号不能为空'\n     but: was <None>",
+    "statusTrace" : "self = <testcases.test_addMember.TestAddMember object at 0x0000019CF1CECD68>\nuser = 'user4', phone = '', expect = '手机号不能为空'\n\n    @pytest.mark.parametrize(\"user,phone,expect\", test_data['test_add_member_fail'])\n    def test_add_member_fail(self, user, phone, expect):\n        fail_text = self.addMember.add_member_fail(user, phone)\n>       assert_that(fail_text, equal_to(expect))\nE       AssertionError: \nE       Expected: '手机号不能为空'\nE            but: was <None>\n\ntestcases\\test_addMember.py:30: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1eaef05ff8488f73",
+      "name" : "log",
+      "source" : "1eaef05ff8488f73.txt",
+      "type" : "text/plain",
+      "size" : 1339
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_addMember"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddMember"
+  }, {
+    "name" : "host",
+    "value" : "z"
+  }, {
+    "name" : "thread",
+    "value" : "16748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_addMember"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'手机号不能为空'"
+  }, {
+    "name" : "phone",
+    "value" : "''"
+  }, {
+    "name" : "user",
+    "value" : "'user4'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c694a4cfb6ce07e.json",
+  "parameterValues" : [ "'手机号不能为空'", "''", "'user4'" ]
+}
