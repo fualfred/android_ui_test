@@ -1,7 +1,7 @@
 # android_ui_test
 pytest+allure+appium基于PO设计模式的android端UI自动化测试框架
 
-框架分层结构结构如下：
+框架分层结构如下：
 
 ![image](https://user-images.githubusercontent.com/21330243/126063395-5e36897c-0e73-40a9-80b0-e8a6791d6c9d.png)
 
