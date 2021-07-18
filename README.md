@@ -28,7 +28,7 @@ pytest.ini:pytest的全局配置文件
 
 run_all_tests.py:全部测试用例执行入口
 
-requirements.txt:所用用python依赖包
+requirements.txt:所用python依赖包
 
 效果如下：
 
