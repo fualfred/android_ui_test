@@ -28,8 +28,10 @@ pytest.ini:pytest的全局配置文件
 
 run_all_tests.py:全部测试用例执行入口
 
+requirements.txt:所用用python依赖包
 
 效果如下：
+
 1.测试步骤驱动：
 
 ![image](https://user-images.githubusercontent.com/21330243/126063645-fd7f3954-746a-4efc-adf3-bd8c0a1b14b5.png)
