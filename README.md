@@ -46,4 +46,5 @@ requirements.txt:所用python依赖包
 
 3.运行后，allure报告效果如下：
 
-![image](https://user-images.githubusercontent.com/21330243/126063709-8d5c893e-7c6d-4074-9917-7d60d061d3f4.png)
+![image](https://user-images.githubusercontent.com/21330243/126193843-8ae0c145-68d9-4c44-837f-7f5fc2ffe73f.png)
+
