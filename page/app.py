@@ -24,7 +24,7 @@ class App(BasePage):
                 "skipDeviceInitialization": 'true',
                 "automationName": 'UiAutomator2'
             }
-            self._driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
+            self._driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", caps)
             self._driver.launch_app()
             self._driver.implicitly_wait(10)
         else:
