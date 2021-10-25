@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Jul 18 16:42:45 CST 2021","Sun Jul 18 16:42:58 CST 2021","13564","testcases","test_addMember","TestAddMember","","","test_add_member_success[user0-11528872802]",""
-"failed","Sun Jul 18 16:48:11 CST 2021","Sun Jul 18 16:48:23 CST 2021","11426","testcases","test_addMember","TestAddMember","","","test_add_member_fail[-11528872804-姓名不能为空1]",""
-"passed","Sun Jul 18 16:46:21 CST 2021","Sun Jul 18 16:46:33 CST 2021","11747","testcases","test_addMember","TestAddMember","","","test_add_member_fail[user4--手机号不能为空]",""
-"passed","Sun Jul 18 16:45:28 CST 2021","Sun Jul 18 16:45:39 CST 2021","11248","testcases","test_addMember","TestAddMember","","","test_add_member_fail[user3-1111-请填写合法的手机号]",""
-"passed","Sun Jul 18 16:44:30 CST 2021","Sun Jul 18 16:44:42 CST 2021","11294","testcases","test_addMember","TestAddMember","","","test_add_member_fail[user2-11528872802-手机已存在于通讯录，无法添加]",""
-"passed","Sun Jul 18 16:47:19 CST 2021","Sun Jul 18 16:47:30 CST 2021","11438","testcases","test_addMember","TestAddMember","","","test_add_member_fail[-11528872801-姓名不能为空]",""
-"passed","Sun Jul 18 16:43:38 CST 2021","Sun Jul 18 16:43:51 CST 2021","13308","testcases","test_addMember","TestAddMember","","","test_add_member_success[user1-11528872801]",""
